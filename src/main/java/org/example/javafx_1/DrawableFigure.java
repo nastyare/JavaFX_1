@@ -2,6 +2,9 @@ package org.example.javafx_1;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
+import org.example.javafx_1.geometry2d.Circle;
+import org.example.javafx_1.geometry2d.Figure;
+import org.example.javafx_1.geometry2d.Rectangle;
 
 public class DrawableFigure {
     private Figure figure;

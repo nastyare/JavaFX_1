@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="875d2b1b-da44-440e-876b-18e22f49c9c1" name="Changes" comment="add all forms">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/ShapeDrawerApp.java" afterDir="false" />
+    <list default="true" id="875d2b1b-da44-440e-876b-18e22f49c9c1" name="Changes" comment="fx2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/RestaurantOrderApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/SimpleCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/TextFlagApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/WidgetVisibilityToggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/InvalidDimensionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/WordSwitcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/geometry2d/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/DrawableFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/DrawableFigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/geometry2d/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/geometry2d/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/ShapeDrawerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/ShapeDrawerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/javafx_1/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/javafx_1/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <module name="JavaFX_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.javafx_1.*" />
+          <option name="PATTERN" value="org.example.javafx_1.geometry2d.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,11 +95,11 @@
       </method>
     </configuration>
     <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.Circle" />
+      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.geometry2d.Circle" />
       <module name="JavaFX_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.javafx_1.*" />
+          <option name="PATTERN" value="org.example.javafx_1.geometry2d.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +108,11 @@
       </method>
     </configuration>
     <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.Rectangle" />
+      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.geometry2d.Rectangle" />
       <module name="JavaFX_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.javafx_1.*" />
+          <option name="PATTERN" value="org.example.javafx_1.geometry2d.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,7 +125,7 @@
       <module name="JavaFX_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.javafx_1.*" />
+          <option name="PATTERN" value="org.example.javafx_1.geometry2d.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,7 +138,7 @@
       <module name="JavaFX_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.javafx_1.*" />
+          <option name="PATTERN" value="org.example.javafx_1.geometry2d.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729417700908</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fx2">
+      <option name="closed" value="true" />
+      <created>1730966099587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730966099587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add word switcher" />
     <MESSAGE value="add all forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="add all forms" />
+    <MESSAGE value="fx2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fx2" />
   </component>
 </project>

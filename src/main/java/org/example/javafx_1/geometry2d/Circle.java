@@ -1,7 +1,8 @@
-package org.example.javafx_1;
+package org.example.javafx_1.geometry2d;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
+import org.example.javafx_1.InvalidDimensionException;
 
 public class Circle implements Figure {
     private double radius;

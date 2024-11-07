@@ -8,4 +8,6 @@ module org.example.javafx_1 {
 
     opens org.example.javafx_1 to javafx.fxml;
     exports org.example.javafx_1;
+    exports org.example.javafx_1.geometry2d;
+    opens org.example.javafx_1.geometry2d to javafx.fxml;
 }
