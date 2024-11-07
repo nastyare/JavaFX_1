@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="875d2b1b-da44-440e-876b-18e22f49c9c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/WordSwitcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/javafx_1/hello-view.fxml" afterDir="false" />
+    <list default="true" id="875d2b1b-da44-440e-876b-18e22f49c9c1" name="Changes" comment="add all forms">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/ShapeDrawerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/RestaurantOrderApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/SimpleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/TextFlagApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/WidgetVisibilityToggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/InvalidDimensionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/WordSwitcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javafx_1/Figure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nastyare&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nastyare/JavaFX_1.git&quot;,
+    &quot;accountId&quot;: &quot;80623793-df6b-432d-a3db-6e406c5c897e&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -42,9 +49,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2nUxt5wcFAt9uT9HezaOr8NoNDh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,15 +60,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Calculator.executor": "Run",
     "Application.RestaurantOrderApp.executor": "Run",
+    "Application.ShapeDrawerApp.executor": "Run",
     "Application.SimpleCalculator.executor": "Run",
+    "Application.TextFlagApp.executor": "Run",
     "Application.WidgetVisibilityToggle.executor": "Run",
+    "Application.Widgets.executor": "Run",
     "Application.WordSwitcher.executor": "Run",
     "Maven.JavaFX_1 [javafx:jlink].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/anast/IdeaProjects/OOP"
   }
 }]]></component>
   <component name="RunAnythingCache">
@@ -69,9 +81,9 @@
       <command value="mvn javafx:jlink" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleCalculator">
-    <configuration name="RestaurantOrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.RestaurantOrderApp" />
+  <component name="RunManager" selected="Application.ShapeDrawerApp">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.Calculator" />
       <module name="JavaFX_1" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.SimpleCalculator" />
+    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.Circle" />
       <module name="JavaFX_1" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WidgetVisibilityToggle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.WidgetVisibilityToggle" />
+    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.Rectangle" />
       <module name="JavaFX_1" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +121,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSwitcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.WordSwitcher" />
+    <configuration name="ShapeDrawerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.ShapeDrawerApp" />
+      <module name="JavaFX_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.javafx_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Widgets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.javafx_1.Widgets" />
       <module name="JavaFX_1" />
       <extension name="coverage">
         <pattern>
@@ -124,10 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleCalculator" />
-        <item itemvalue="Application.RestaurantOrderApp" />
-        <item itemvalue="Application.WidgetVisibilityToggle" />
-        <item itemvalue="Application.WordSwitcher" />
+        <item itemvalue="Application.ShapeDrawerApp" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Circle" />
+        <item itemvalue="Application.Rectangle" />
+        <item itemvalue="Application.Widgets" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +166,28 @@
       <option name="presentableId" value="Default" />
       <updated>1729041669176</updated>
     </task>
+    <task id="LOCAL-00001" summary="add word switcher">
+      <option name="closed" value="true" />
+      <created>1729044126780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729044126780</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add all forms">
+      <option name="closed" value="true" />
+      <created>1729417700908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729417700908</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add word switcher" />
+    <MESSAGE value="add all forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all forms" />
   </component>
 </project>
